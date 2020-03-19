@@ -19,7 +19,7 @@ $(document).ready(function() {
 
 // xhr.status
 function callApi(query) {
-  var base = "http://www.omdbapi.com/?apikey=e1a8c46&s=";
+  var base = "https://www.omdbapi.com/?apikey=e1a8c46&s=";
   $.ajax({
     url: base + query,
     type: "GET",
